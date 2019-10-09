@@ -1,0 +1,31 @@
+body {
+    text-align: center;
+}
+
+input{
+    text-align: right;
+    width: 5%;
+    margin-bottom: 10px;
+
+}
+
+#main {
+    width: 60%;
+    height: 100%;
+    background-color: gainsboro;
+    left: 20%;
+    position: fixed;
+}
+
+#time {
+    font-size: 80px;
+    font-family: Sans-serif;
+}
+
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button {  
+
+   opacity: 1;
+
+}

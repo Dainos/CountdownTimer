@@ -3,8 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <title>Countdown Timer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="src/favicon.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="src/favicon.png" type="image/x-icon" />
 </head>
 <body>
-    
+    <div id="main">
+
+        <div id="time">
+            <b>00</b>:<b>00</b>:<b>00</b>
+        </div>
+        
+
+        <input type="number" id="hours" value="0">:
+        <input type="number" id="minutes" value="10">:
+        <input type="number" id="seconds" value="10">
+
+        <br><button>Пуск</button>
+        <button>Пауза</button>
+        <button>Стоп</button>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
