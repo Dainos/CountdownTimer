@@ -11,15 +11,15 @@
     <div id="main">
 
         <div id="time">
-            <b>00</b>:<b>00</b>:<b>00</b>
+            <b id="hours-value">00</b>:<b id="minutes-value">00</b>:<b id="seconds-value">00</b>
         </div>
         
 
-        <input type="number" id="hours" value="0">:
-        <input type="number" id="minutes" value="10">:
-        <input type="number" id="seconds" value="10">
+        <input type="number" id="hours" value="0" min="0">:
+        <input type="number" id="minutes" value="10" min="0">:
+        <input type="number" id="seconds" value="10" min="0">
 
-        <br><button>Пуск</button>
+        <br><button id="run">Пуск</button>
         <button>Пауза</button>
         <button>Стоп</button>
     </div>

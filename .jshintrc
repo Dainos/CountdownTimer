@@ -1,0 +1,5 @@
+{
+    "camelcase": true,
+    "maxlen": 80,
+    "esversion": 6
+}
